@@ -7,4 +7,27 @@ def crear_serie(n)
 
 end
 
-puts crear_serie(10)
+def arreglo_impares(array)
+  new_array = []
+  array.each do |element|
+    if element % 2 != 0
+      new_array << element
+    end
+  end
+  new_array
+end
+
+def suma_arreglo(array)
+  suma = 0
+  array.each do |element|
+    suma += element
+  end
+  suma
+end
+
+fibonacci = []
+fibonacci = crear_serie(10)
+impares = arreglo_impares(fibonacci)
+puts impares
+sam = suma_arreglo(impares)
+puts sam

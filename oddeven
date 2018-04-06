@@ -1,0 +1,6 @@
+puts 'ingrese el numero'
+numero= gets.chomp.to_i
+if numero % 2 == 0
+  puts 'par'
+else
+  puts 'impar'

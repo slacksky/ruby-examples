@@ -10,7 +10,7 @@ end
 def arreglo_impares(array)
   new_array = []
   array.each do |element|
-    if element % 2 != 0
+    if element % 2 != 0 && element <=40
       new_array << element
     end
   end

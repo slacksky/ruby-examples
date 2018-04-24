@@ -1,17 +1,18 @@
 class Ventilador
-  attr_reader :marca, :velocidad
+  attr_accessor :marca
 
   def initialize(params)
     @marca = params[:marca]
-    @velocidad = 0
+  end
+  def self.peso
+    '15kg'
   end
 
-  #def marca
-  #  @marca
-  #end
 end
 
 
 obj = Ventilador.new(marca: 'samsung')
 puts obj.marca
-puts obj.velocidad
+obj.marca = 'LG'
+puts obj.marca
+puts Ventilador.peso

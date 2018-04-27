@@ -26,15 +26,15 @@ end
     end
 end
 
-#pato = Pato.new
-#lucas = Mallard.new
-#donald = Blanco.new
+# pato = Pato.new
+# lucas = Mallard.new
+# donald = Blanco.new
 
-#lucas.mostrar
-#donald.mostrar
-#pato.mostrar
-#lucas.hacer_quak
-#donald.hacer_quak
-p#ato.hacer_quak
-p#ato.volar
-#lucas.nadar
+# lucas.mostrar
+# donald.mostrar
+# pato.mostrar
+# lucas.hacer_quak
+# donald.hacer_quak
+# pato.hacer_quak
+# pato.volar
+# lucas.nadar

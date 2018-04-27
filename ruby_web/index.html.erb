@@ -1,2 +1,6 @@
-<h1>Hola!</h1>
-<%= @mensaje %>
+<h1>Lista de publicaciones</h1>
+<% @posts.each do |post| %>
+  <h2><%= post['title'] %></h2>
+  <p><%= post['body'] %></p>
+  <hr />
+<% end %>
